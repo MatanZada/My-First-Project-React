@@ -12,7 +12,7 @@ function NicePragrapes(props) {
   let dataWarehouse = [];
   for (let i = 0; i < paragraph.length; i++) {
     dataWarehouse.push(
-      <div key={i}>
+      <div>
         <span>{paragraph[i]}</span>
       </div>
     );
