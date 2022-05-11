@@ -3,6 +3,10 @@ import SubTitle from "./components/SubTitle";
 import NicePragrapes from "./components/NicePragrapes";
 import "./App.css";
 
+/**
+ * It returns a div with a Title, SubTitle, and NicePragrapes component
+ * @returns a div with a title, subtitle, and a paragraph.
+ */
 export default function App() {
   return (
     <div className="App">
